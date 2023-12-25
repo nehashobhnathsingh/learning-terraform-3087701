@@ -6,6 +6,6 @@ output "instance_arn" {
   value = aws_instance.web.arn
 }
 
-output "region_name" {
-  value = var.default
-}
+#output "region_name" {
+ # value = var.default
+#}

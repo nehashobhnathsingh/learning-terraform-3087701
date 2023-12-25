@@ -4,7 +4,7 @@ variable "instance_type" {
   
 }
 
-variable "region_name" {
-    description = "The region wehere the instance will be created"
-    default = "ap-south-1"
-}
+#variable "region_name" {
+   # description = "The region wehere the instance will be created"
+    #default = "ap-south-1"
+#}
