@@ -5,3 +5,7 @@ output "instance_ami" {
 output "instance_arn" {
   value = aws_instance.web.arn
 }
+
+output "region-name" {
+  value = var.region
+}
