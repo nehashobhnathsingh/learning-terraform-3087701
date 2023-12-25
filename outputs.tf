@@ -7,5 +7,5 @@ output "instance_arn" {
 }
 
 output "region_name" {
-  value = var.region
+  value = var.default
 }
